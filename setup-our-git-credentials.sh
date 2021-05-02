@@ -59,7 +59,7 @@ case $CHOICE in
     1 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "Deni Arco"
+			git config --global user.name "enideni"
 			git config --global user.email "denisarcolinux@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
